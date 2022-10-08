@@ -249,12 +249,3 @@ rfm_target_2 = rfm_2[rfm_2["Category"].str.contains("COCUK", na=False)]
 rfm_target_3 = rfm_2[rfm_2["Category"].str.contains("ERKEK", na=False)]
 rfm_cocuk_erkek = pd.merge(rfm_target_2, rfm_target_3)
 rfm_cocuk_erkek.master_id.to_csv("rfm_cocuk_erkek.csv")
-
-
-
-
-
-
-
-
-
