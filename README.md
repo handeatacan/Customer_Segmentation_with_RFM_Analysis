@@ -6,11 +6,13 @@ Online ayakkabı mağazası olan FLO müşterilerini segmentlere ayırıp bu seg
 stratejileri belirlemek istiyor. Buna yönelik olarak müşterilerin davranışları tanımlanacak ve bu
 davranışlardaki öbeklenmelere göre gruplar oluşturulacak.
 
+
 Recency: son alış veriş tarihinden itibaren bugüne kaç gün geçti bilgisi
 
 Frequency: Alış veriş sıklığı, toplam satın alma adedi
 
 Monetary: Toplam yaptığı harcama
+
 
 Değişkenler:
 
