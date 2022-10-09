@@ -7,13 +7,11 @@ stratejileri belirlemek istiyor. Buna yönelik olarak müşterilerin davranışl
 davranışlardaki öbeklenmelere göre gruplar oluşturulacak.
 
 
-
 Recency: son alış veriş tarihinden itibaren bugüne kaç gün geçti bilgisi
 
 Frequency: Alış veriş sıklığı, toplam satın alma adedi
 
 Monetary: Toplam yaptığı harcama
-
 
 
 Değişkenler:
