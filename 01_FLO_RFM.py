@@ -257,7 +257,7 @@ cust_ids.shape
 
 def create_rfm(dataframe):
 
-    # Veriyi Hazırlma
+    # Veriyi Hazırlama
     dataframe["order_num_total"] = dataframe["order_num_total_ever_online"] + dataframe["order_num_total_ever_offline"]
     dataframe["customer_value_total"] = dataframe["customer_value_total_ever_offline"] + dataframe["customer_value_total_ever_online"]
     date_columns = dataframe.columns[dataframe.columns.str.contains("date")]
@@ -299,5 +299,3 @@ def create_rfm(dataframe):
 
 rfm_df = create_rfm(df)
 rfm_df.head()
-
-
